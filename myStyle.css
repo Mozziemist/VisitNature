@@ -1,0 +1,18 @@
+body {
+  background: #41664f !important;
+}
+
+.parallax {
+  background: url("img/sequoia-main.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  text-shadow: 2px 2px #000000;
+}
+
+.infoPack {
+  width: 360px;
+  height: 447px;
+  background-color: #9c9c9c;
+  margin-top: 70px;
+}
