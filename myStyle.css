@@ -4,7 +4,7 @@ body {
 
 .parallax {
   background: url("img/sequoia-main.jpg") no-repeat center;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   height: 500px;
   text-shadow: 2px 2px #000000;
@@ -12,7 +12,7 @@ body {
 
 .parallax2 {
   background: url("img/yosemite-main.jpg") no-repeat center;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   height: 500px;
   text-shadow: 2px 2px #000000;
@@ -21,7 +21,7 @@ body {
 
 .parallax3 {
   background: url("img/yellowstone-main.jpg") no-repeat center;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   height: 500px;
   text-shadow: 2px 2px #000000;
@@ -30,7 +30,7 @@ body {
 
 .parallax4 {
   background: url("img/grandCanyon-main.jpg") no-repeat center;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   height: 500px;
   text-shadow: 2px 2px #000000;
