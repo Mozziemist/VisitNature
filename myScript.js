@@ -17,3 +17,23 @@ $(document).ready(function(){
 			return false;
 		});
 });
+
+function getLocation(dest){
+
+	var startPos;
+
+	var geoSuccess = function(position) {
+
+		// Do magic with location
+		startPos = position;
+		
+		window.open("https://www.google.com/maps/dir/?api=1&origin=" + startPos.coords.latitude + ',' + startPos.coords.longitude + "&destination=" + dest);
+	};
+	var geoError = function(error) {
+		
+		console.error(error);
+		window.open("https://www.google.com/maps/dir//" + dest);
+	};
+
+	navigator.geolocation.getCurrentPosition(geoSuccess, geoError);
+}
